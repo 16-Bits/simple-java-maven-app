@@ -32,9 +32,9 @@ public class AppTest
     }
 
     @Disabled
-    @Test
-    public void testAutoSkip()
-    {
-        fail();
-    }
+        @Test
+        public void testAutoSkip()
+        {
+            fail();
+        }
 }
