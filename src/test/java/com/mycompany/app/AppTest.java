@@ -25,15 +25,12 @@ public class AppTest
         assertEquals("Hello World!", app.getMessage());
     }
 
-
     @Test
     void autoPass()
     {
         App app = new App();
         assertEquals("Hello World!", app.getMessage());
     }
-
-
 
     @Test
     void autoFail()
