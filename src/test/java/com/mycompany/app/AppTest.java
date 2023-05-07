@@ -22,4 +22,30 @@ public class AppTest
         App app = new App();
         assertEquals("Hello World!", app.getMessage());
     }
+
+    if(true){
+        @Test
+        public void autoPass()
+        {
+            App app = new App();
+            assertEquals("Hello World!", app.getMessage());
+        }
+    }
+
+    if(true){
+        @Test
+        public void autoFail()
+        {
+            fail();
+        }
+    }
+
+    if(true){
+    @Ignore
+    @Test
+    public void autoSkip()
+    {
+        fail();
+    }
+    }
 }
