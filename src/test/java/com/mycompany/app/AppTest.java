@@ -1,8 +1,10 @@
 package com.mycompany.app;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Disabled;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.Fail;
 
 /**
  * Unit test for simple App.
@@ -21,5 +23,18 @@ public class AppTest
     {
         App app = new App();
         assertEquals("Hello World!", app.getMessage());
+    }
+
+    @Test
+    public void testAutoFail()
+    {
+        fail();
+    }
+
+    @Disabled
+    @Test
+    public void testAutoSkip()
+    {
+        fail();
     }
 }
