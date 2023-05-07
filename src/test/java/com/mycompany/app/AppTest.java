@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Disabled;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.Fail;
+import static org.junit.jupiter.api.Assertions.fail;
 
 /**
  * Unit test for simple App.
